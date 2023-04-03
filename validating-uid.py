@@ -1,9 +1,9 @@
 uidList = []
 
-testCases = input("Number of test cases: ")
+testCases = input()
 
 for i in range(int(testCases)):
-    uidList.append(input("Please enter UID #" + str(int(i + 1)) + ": "))
+    uidList.append(input())
 
 for x in uidList:
     if x.isalnum():
@@ -16,6 +16,7 @@ for x in uidList:
                 if i.lower() in charCheck:
                     print("Invalid")
                     breakStatus = True
+                    break
                 charCheck += i.lower()
                 if i.isalpha():
                     if i.isupper():

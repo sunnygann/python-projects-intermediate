@@ -3,3 +3,4 @@
 
 References
 - https://tealfeed.com/4-fantastic-intermediate-python-programming-challenges-b7354
+- https://www.hackerrank.com/challenges/validating-uid/problem?isFullScreen=true
